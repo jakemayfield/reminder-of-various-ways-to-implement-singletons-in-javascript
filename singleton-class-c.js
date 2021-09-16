@@ -3,12 +3,9 @@ const { Singletons } = require('./singletons');
 class SingletonClassC {
 
   constructor(name) {
-    if (this.instance) {
-      return SingletonClassB.instance;
-    }
 
-    // Assign this class instance a key.
-    const key = 'singletonClassC';
+    // Assign this class instance a key name.
+    const key = 'SingletonClassC';
 
     // Load object from Singletons by key if it exist.
     if (key in Singletons) {
