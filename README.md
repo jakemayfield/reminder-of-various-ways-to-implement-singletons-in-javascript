@@ -1,0 +1,1 @@
+This is not focused on whether you should or should not use the singleton design pattern in Javascript. This assumes that you have decided to implement a singleton in Javascript and reveals a few approaches on how you might go about it.
