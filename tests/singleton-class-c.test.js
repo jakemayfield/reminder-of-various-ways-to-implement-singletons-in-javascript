@@ -1,4 +1,4 @@
-const SingletonClassC = require('../singleton-class-b');
+const SingletonClassC = require('../singleton-class-c');
 
 test('SingletonClassC is a singleton class', () => {
     const instanceOne = new SingletonClassC('Person C');
