@@ -9,8 +9,8 @@ const SingletonClassA = require('../singleton-class-a');
 // const instance2 = new SingletonClassA('Person B');
 
 test('SingletonClassA is a singleton class', () => {
-    const instance1 = SingletonClassA.getInstance('Person A');
-    const instance2 = SingletonClassA.getInstance('Person B');
-    expect(instance1 === instance2).toEqual(true);
-    expect(instance1.getName()).toEqual('Person A');
+    const instanceOne = SingletonClassA.getInstance('Person A');
+    const instanceTwo = SingletonClassA.getInstance('Person B');
+    expect(instanceOne === instanceTwo).toEqual(true);
+    expect(instanceOne.getName()).toEqual('Person A');
 });
